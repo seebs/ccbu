@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/home/seebs/src/ccbu/debug/python/dummy.py", line 3, in <module>
+    x.contains(6)
+  File "/home/seebs/src/ccbu/debug/python/linked_list.py", line 42, in contains
+    if l_fast.value == value:
+       ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'value'
